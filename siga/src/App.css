@@ -1,8 +1,13 @@
+* {
+  font-family: Verdana, Geneva, sans-serif;
+}
+
 .BaseRBtn {
   display: inline-block;
 }
 
-.BaseRBtn span,.RoundedBtn input {
+.BaseRBtn span,
+.RoundedBtn input {
   display: block;
   float: left;
   position: relative;
@@ -30,7 +35,165 @@
   overflow: visible;
 }
 
-.Attribute,.ReadonlyAttribute,.BlobContentAttribute,.ReadonlyBlobContentAttribute,.BlobInputAttribute,.AttributeDragging,.AttributeAcceptDrag,.AttributeNoAcceptDrag,.AttSubTitle,.BlobInputAttSubTitle,.BlobContentAttSubTitle,.ReadonlyBlobContentAttSubTitle,.ReadonlyAttSubTitle,.AttributeBold,.Title,.BlobContentTitle,.ReadonlyBlobContentTitle,.BlobInputTitle,.ReadonlyTitle,.Noticia_CanalResumo,.BlobContentNoticia_CanalResumo,.ReadonlyBlobContentNoticia_CanalResumo,.BlobInputNoticia_CanalResumo,.ReadonlyNoticia_CanalResumo,.Noticia_Resumo,.BlobContentNoticia_Resumo,.ReadonlyBlobContentNoticia_Resumo,.BlobInputNoticia_Resumo,.ReadonlyNoticia_Resumo,.Noticia_Titulo,.BlobContentNoticia_Titulo,.ReadonlyBlobContentNoticia_Titulo,.BlobInputNoticia_Titulo,.ReadonlyNoticia_Titulo,.Noticia_TituloCanal,.BlobContentNoticia_TituloCanal,.ReadonlyBlobContentNoticia_TituloCanal,.BlobInputNoticia_TituloCanal,.ReadonlyNoticia_TituloCanal,.CalendarioDia,.BlobContentCalendarioDia,.ReadonlyBlobContentCalendarioDia,.BlobInputCalendarioDia,.ReadonlyCalendarioDia,.CalendarioTitulo,.BlobContentCalendarioTitulo,.ReadonlyBlobContentCalendarioTitulo,.BlobInputCalendarioTitulo,.ReadonlyCalendarioTitulo,.CalendarioDescricao,.BlobContentCalendarioDescricao,.ReadonlyBlobContentCalendarioDescricao,.BlobInputCalendarioDescricao,.ReadonlyCalendarioDescricao,.CalendarioCategoria,.BlobContentCalendarioCategoria,.ReadonlyBlobContentCalendarioCategoria,.BlobInputCalendarioCategoria,.ReadonlyCalendarioCategoria,.CalendarioMes,.BlobContentCalendarioMes,.ReadonlyBlobContentCalendarioMes,.BlobInputCalendarioMes,.ReadonlyCalendarioMes,.CategoriaPeriodo,.BlobContentCategoriaPeriodo,.ReadonlyBlobContentCategoriaPeriodo,.BlobInputCategoriaPeriodo,.ReadonlyCategoriaPeriodo,.Link,.BlobContentLink,.ReadonlyBlobContentLink,.BlobInputLink,.ReadonlyLink,.A,.BlobContentA,.ReadonlyBlobContentA,.BlobInputA,.ReadonlyA,.A.Link,.BlobContentA.Link,.ReadonlyBlobContentA.Link,.BlobInputA.Link,.ReadonlyA.Link,.A.Visited,.BlobContentA.Visited,.ReadonlyBlobContentA.Visited,.BlobInputA.Visited,.ReadonlyA.Visited,.A.Hover,.BlobContentA.Hover,.ReadonlyBlobContentA.Hover,.BlobInputA.Hover,.ReadonlyA.Hover,.Attribute_Small,.BlobContentAttribute_Small,.ReadonlyBlobContentAttribute_Small,.BlobInputAttribute_Small,.ReadonlyAttribute_Small,.NoBorder,.BlobContentNoBorder,.ReadonlyBlobContentNoBorder,.BlobInputNoBorder,.ReadonlyNoBorder,.CatalogoAtributo,.BlobContentCatalogoAtributo,.ReadonlyBlobContentCatalogoAtributo,.BlobInputCatalogoAtributo,.ReadonlyCatalogoAtributo,.Noticia_CanalTitulo,.BlobContentNoticia_CanalTitulo,.ReadonlyBlobContentNoticia_CanalTitulo,.BlobInputNoticia_CanalTitulo,.ReadonlyNoticia_CanalTitulo,.ComponenteSelecionado,.BlobContentComponenteSelecionado,.ReadonlyBlobContentComponenteSelecionado,.BlobInputComponenteSelecionado,.ReadonlyComponenteSelecionado,.ComponenteAtributoGrid,.BlobContentComponenteAtributoGrid,.ReadonlyBlobContentComponenteAtributoGrid,.BlobInputComponenteAtributoGrid,.ReadonlyComponenteAtributoGrid,.checkbox,.BlobContentcheckbox,.ReadonlyBlobContentcheckbox,.BlobInputcheckbox,.Readonlycheckbox,.TitleSub,.BlobContentTitleSub,.ReadonlyBlobContentTitleSub,.BlobInputTitleSub,.ReadonlyTitleSub,.TitleSubRed,.BlobContentTitleSubRed,.ReadonlyBlobContentTitleSubRed,.BlobInputTitleSubRed,.ReadonlyTitleSubRed,.AttributeSmall,.BlobContentAttributeSmall,.ReadonlyBlobContentAttributeSmall,.BlobInputAttributeSmall,.ReadonlyAttributeSmall,.AttributeSmallest,.BlobContentAttributeSmallest,.ReadonlyBlobContentAttributeSmallest,.BlobInputAttributeSmallest,.ReadonlyAttributeSmallest,.AttributeNormal,.BlobContentAttributeNormal,.ReadonlyBlobContentAttributeNormal,.BlobInputAttributeNormal,.ReadonlyAttributeNormal,.AttributeSemLink,.BlobContentAttributeSemLink,.ReadonlyBlobContentAttributeSemLink,.BlobInputAttributeSemLink,.ReadonlyAttributeSemLink {
+.Attribute,
+.ReadonlyAttribute,
+.BlobContentAttribute,
+.ReadonlyBlobContentAttribute,
+.BlobInputAttribute,
+.AttributeDragging,
+.AttributeAcceptDrag,
+.AttributeNoAcceptDrag,
+.AttSubTitle,
+.BlobInputAttSubTitle,
+.BlobContentAttSubTitle,
+.ReadonlyBlobContentAttSubTitle,
+.ReadonlyAttSubTitle,
+.AttributeBold,
+.Title,
+.BlobContentTitle,
+.ReadonlyBlobContentTitle,
+.BlobInputTitle,
+.ReadonlyTitle,
+.Noticia_CanalResumo,
+.BlobContentNoticia_CanalResumo,
+.ReadonlyBlobContentNoticia_CanalResumo,
+.BlobInputNoticia_CanalResumo,
+.ReadonlyNoticia_CanalResumo,
+.Noticia_Resumo,
+.BlobContentNoticia_Resumo,
+.ReadonlyBlobContentNoticia_Resumo,
+.BlobInputNoticia_Resumo,
+.ReadonlyNoticia_Resumo,
+.Noticia_Titulo,
+.BlobContentNoticia_Titulo,
+.ReadonlyBlobContentNoticia_Titulo,
+.BlobInputNoticia_Titulo,
+.ReadonlyNoticia_Titulo,
+.Noticia_TituloCanal,
+.BlobContentNoticia_TituloCanal,
+.ReadonlyBlobContentNoticia_TituloCanal,
+.BlobInputNoticia_TituloCanal,
+.ReadonlyNoticia_TituloCanal,
+.CalendarioDia,
+.BlobContentCalendarioDia,
+.ReadonlyBlobContentCalendarioDia,
+.BlobInputCalendarioDia,
+.ReadonlyCalendarioDia,
+.CalendarioTitulo,
+.BlobContentCalendarioTitulo,
+.ReadonlyBlobContentCalendarioTitulo,
+.BlobInputCalendarioTitulo,
+.ReadonlyCalendarioTitulo,
+.CalendarioDescricao,
+.BlobContentCalendarioDescricao,
+.ReadonlyBlobContentCalendarioDescricao,
+.BlobInputCalendarioDescricao,
+.ReadonlyCalendarioDescricao,
+.CalendarioCategoria,
+.BlobContentCalendarioCategoria,
+.ReadonlyBlobContentCalendarioCategoria,
+.BlobInputCalendarioCategoria,
+.ReadonlyCalendarioCategoria,
+.CalendarioMes,
+.BlobContentCalendarioMes,
+.ReadonlyBlobContentCalendarioMes,
+.BlobInputCalendarioMes,
+.ReadonlyCalendarioMes,
+.CategoriaPeriodo,
+.BlobContentCategoriaPeriodo,
+.ReadonlyBlobContentCategoriaPeriodo,
+.BlobInputCategoriaPeriodo,
+.ReadonlyCategoriaPeriodo,
+.Link,
+.BlobContentLink,
+.ReadonlyBlobContentLink,
+.BlobInputLink,
+.ReadonlyLink,
+.A,
+.BlobContentA,
+.ReadonlyBlobContentA,
+.BlobInputA,
+.ReadonlyA,
+.A.Link,
+.BlobContentA.Link,
+.ReadonlyBlobContentA.Link,
+.BlobInputA.Link,
+.ReadonlyA.Link,
+.A.Visited,
+.BlobContentA.Visited,
+.ReadonlyBlobContentA.Visited,
+.BlobInputA.Visited,
+.ReadonlyA.Visited,
+.A.Hover,
+.BlobContentA.Hover,
+.ReadonlyBlobContentA.Hover,
+.BlobInputA.Hover,
+.ReadonlyA.Hover,
+.Attribute_Small,
+.BlobContentAttribute_Small,
+.ReadonlyBlobContentAttribute_Small,
+.BlobInputAttribute_Small,
+.ReadonlyAttribute_Small,
+.NoBorder,
+.BlobContentNoBorder,
+.ReadonlyBlobContentNoBorder,
+.BlobInputNoBorder,
+.ReadonlyNoBorder,
+.CatalogoAtributo,
+.BlobContentCatalogoAtributo,
+.ReadonlyBlobContentCatalogoAtributo,
+.BlobInputCatalogoAtributo,
+.ReadonlyCatalogoAtributo,
+.Noticia_CanalTitulo,
+.BlobContentNoticia_CanalTitulo,
+.ReadonlyBlobContentNoticia_CanalTitulo,
+.BlobInputNoticia_CanalTitulo,
+.ReadonlyNoticia_CanalTitulo,
+.ComponenteSelecionado,
+.BlobContentComponenteSelecionado,
+.ReadonlyBlobContentComponenteSelecionado,
+.BlobInputComponenteSelecionado,
+.ReadonlyComponenteSelecionado,
+.ComponenteAtributoGrid,
+.BlobContentComponenteAtributoGrid,
+.ReadonlyBlobContentComponenteAtributoGrid,
+.BlobInputComponenteAtributoGrid,
+.ReadonlyComponenteAtributoGrid,
+.checkbox,
+.BlobContentcheckbox,
+.ReadonlyBlobContentcheckbox,
+.BlobInputcheckbox,
+.Readonlycheckbox,
+.TitleSub,
+.BlobContentTitleSub,
+.ReadonlyBlobContentTitleSub,
+.BlobInputTitleSub,
+.ReadonlyTitleSub,
+.TitleSubRed,
+.BlobContentTitleSubRed,
+.ReadonlyBlobContentTitleSubRed,
+.BlobInputTitleSubRed,
+.ReadonlyTitleSubRed,
+.AttributeSmall,
+.BlobContentAttributeSmall,
+.ReadonlyBlobContentAttributeSmall,
+.BlobInputAttributeSmall,
+.ReadonlyAttributeSmall,
+.AttributeSmallest,
+.BlobContentAttributeSmallest,
+.ReadonlyBlobContentAttributeSmallest,
+.BlobInputAttributeSmallest,
+.ReadonlyAttributeSmallest,
+.AttributeNormal,
+.BlobContentAttributeNormal,
+.ReadonlyBlobContentAttributeNormal,
+.BlobInputAttributeNormal,
+.ReadonlyAttributeNormal,
+.AttributeSemLink,
+.BlobContentAttributeSemLink,
+.ReadonlyBlobContentAttributeSemLink,
+.BlobInputAttributeSemLink,
+.ReadonlyAttributeSemLink {
   margin-bottom: 2px;
   margin-left: 2px;
   margin-right: 2px;
@@ -67,7 +230,8 @@
   color: #404040;
 }
 
-.BlobContentAttribute,.ReadonlyBlobContentAttribute {
+.BlobContentAttribute,
+.ReadonlyBlobContentAttribute {
   border-bottom-color: #D3D4D3;
   border-left-color: #D3D4D3;
   border-right-color: #D3D4D3;
@@ -107,7 +271,11 @@
   color: #333;
 }
 
-.AttSubTitle,.BlobInputAttSubTitle,.BlobContentAttSubTitle,.ReadonlyBlobContentAttSubTitle,.ReadonlyAttSubTitle {
+.AttSubTitle,
+.BlobInputAttSubTitle,
+.BlobContentAttSubTitle,
+.ReadonlyBlobContentAttSubTitle,
+.ReadonlyAttSubTitle {
   padding-bottom: 5pt;
   padding-left: 5pt;
   padding-right: 5pt;
@@ -128,7 +296,11 @@
   color: #333;
 }
 
-.Title,.BlobContentTitle,.ReadonlyBlobContentTitle,.BlobInputTitle,.ReadonlyTitle {
+.Title,
+.BlobContentTitle,
+.ReadonlyBlobContentTitle,
+.BlobInputTitle,
+.ReadonlyTitle {
   border-bottom-color: #D3D4D3;
   border-left-color: #D3D4D3;
   border-right-color: #D3D4D3;
@@ -137,7 +309,8 @@
   font-weight: bold;
 }
 
-.BlobContentTitle,.ReadonlyBlobContentTitle {
+.BlobContentTitle,
+.ReadonlyBlobContentTitle {
   color: Gray;
 }
 
@@ -153,7 +326,11 @@
   border-width: 0;
 }
 
-.Noticia_CanalResumo,.BlobContentNoticia_CanalResumo,.ReadonlyBlobContentNoticia_CanalResumo,.BlobInputNoticia_CanalResumo,.ReadonlyNoticia_CanalResumo {
+.Noticia_CanalResumo,
+.BlobContentNoticia_CanalResumo,
+.ReadonlyBlobContentNoticia_CanalResumo,
+.BlobInputNoticia_CanalResumo,
+.ReadonlyNoticia_CanalResumo {
   border-bottom-color: #D3D4D3;
   border-left-color: #D3D4D3;
   border-right-color: #D3D4D3;
@@ -164,7 +341,11 @@
   color: #333;
 }
 
-.Noticia_Resumo,.BlobContentNoticia_Resumo,.ReadonlyBlobContentNoticia_Resumo,.BlobInputNoticia_Resumo,.ReadonlyNoticia_Resumo {
+.Noticia_Resumo,
+.BlobContentNoticia_Resumo,
+.ReadonlyBlobContentNoticia_Resumo,
+.BlobInputNoticia_Resumo,
+.ReadonlyNoticia_Resumo {
   border-bottom-color: #D3D4D3;
   border-left-color: #D3D4D3;
   border-right-color: #D3D4D3;
@@ -176,7 +357,11 @@
   color: #333;
 }
 
-.Noticia_Titulo,.BlobContentNoticia_Titulo,.ReadonlyBlobContentNoticia_Titulo,.BlobInputNoticia_Titulo,.ReadonlyNoticia_Titulo {
+.Noticia_Titulo,
+.BlobContentNoticia_Titulo,
+.ReadonlyBlobContentNoticia_Titulo,
+.BlobInputNoticia_Titulo,
+.ReadonlyNoticia_Titulo {
   border-bottom-color: #D3D4D3;
   border-left-color: #D3D4D3;
   border-right-color: #D3D4D3;
@@ -188,7 +373,8 @@
   color: #404040;
 }
 
-.BlobContentNoticia_Titulo,.ReadonlyBlobContentNoticia_Titulo {
+.BlobContentNoticia_Titulo,
+.ReadonlyBlobContentNoticia_Titulo {
   color: Navy;
 }
 
@@ -200,7 +386,11 @@
   color: Navy;
 }
 
-.Noticia_TituloCanal,.BlobContentNoticia_TituloCanal,.ReadonlyBlobContentNoticia_TituloCanal,.BlobInputNoticia_TituloCanal,.ReadonlyNoticia_TituloCanal {
+.Noticia_TituloCanal,
+.BlobContentNoticia_TituloCanal,
+.ReadonlyBlobContentNoticia_TituloCanal,
+.BlobInputNoticia_TituloCanal,
+.ReadonlyNoticia_TituloCanal {
   border-bottom-color: #D3D4D3;
   border-left-color: #D3D4D3;
   border-right-color: #D3D4D3;
@@ -210,7 +400,8 @@
   color: Gray;
 }
 
-.BlobContentNoticia_TituloCanal,.ReadonlyBlobContentNoticia_TituloCanal {
+.BlobContentNoticia_TituloCanal,
+.ReadonlyBlobContentNoticia_TituloCanal {
   color: Maroon;
 }
 
@@ -227,7 +418,11 @@
   color: Maroon;
 }
 
-.CalendarioDia,.BlobContentCalendarioDia,.ReadonlyBlobContentCalendarioDia,.BlobInputCalendarioDia,.ReadonlyCalendarioDia {
+.CalendarioDia,
+.BlobContentCalendarioDia,
+.ReadonlyBlobContentCalendarioDia,
+.BlobInputCalendarioDia,
+.ReadonlyCalendarioDia {
   border-bottom-color: #D3D4D3;
   border-left-color: #D3D4D3;
   border-right-color: #D3D4D3;
@@ -238,7 +433,11 @@
   color: #333;
 }
 
-.CalendarioTitulo,.BlobContentCalendarioTitulo,.ReadonlyBlobContentCalendarioTitulo,.BlobInputCalendarioTitulo,.ReadonlyCalendarioTitulo {
+.CalendarioTitulo,
+.BlobContentCalendarioTitulo,
+.ReadonlyBlobContentCalendarioTitulo,
+.BlobInputCalendarioTitulo,
+.ReadonlyCalendarioTitulo {
   border-bottom-color: #D3D4D3;
   border-left-color: #D3D4D3;
   border-right-color: #D3D4D3;
@@ -248,7 +447,11 @@
   color: #333;
 }
 
-.CalendarioDescricao,.BlobContentCalendarioDescricao,.ReadonlyBlobContentCalendarioDescricao,.BlobInputCalendarioDescricao,.ReadonlyCalendarioDescricao {
+.CalendarioDescricao,
+.BlobContentCalendarioDescricao,
+.ReadonlyBlobContentCalendarioDescricao,
+.BlobInputCalendarioDescricao,
+.ReadonlyCalendarioDescricao {
   border-bottom-color: #D3D4D3;
   border-left-color: #D3D4D3;
   border-right-color: #D3D4D3;
@@ -259,7 +462,11 @@
   color: #333;
 }
 
-.CalendarioCategoria,.BlobContentCalendarioCategoria,.ReadonlyBlobContentCalendarioCategoria,.BlobInputCalendarioCategoria,.ReadonlyCalendarioCategoria {
+.CalendarioCategoria,
+.BlobContentCalendarioCategoria,
+.ReadonlyBlobContentCalendarioCategoria,
+.BlobInputCalendarioCategoria,
+.ReadonlyCalendarioCategoria {
   border-bottom-color: #D3D4D3;
   border-left-color: #D3D4D3;
   border-right-color: #D3D4D3;
@@ -271,7 +478,11 @@
   color: #0000C0;
 }
 
-.CalendarioMes,.BlobContentCalendarioMes,.ReadonlyBlobContentCalendarioMes,.BlobInputCalendarioMes,.ReadonlyCalendarioMes {
+.CalendarioMes,
+.BlobContentCalendarioMes,
+.ReadonlyBlobContentCalendarioMes,
+.BlobInputCalendarioMes,
+.ReadonlyCalendarioMes {
   border-bottom-color: #D3D4D3;
   border-left-color: #D3D4D3;
   border-right-color: #D3D4D3;
@@ -288,7 +499,11 @@
   border-width: 0;
 }
 
-.CategoriaPeriodo,.BlobContentCategoriaPeriodo,.ReadonlyBlobContentCategoriaPeriodo,.BlobInputCategoriaPeriodo,.ReadonlyCategoriaPeriodo {
+.CategoriaPeriodo,
+.BlobContentCategoriaPeriodo,
+.ReadonlyBlobContentCategoriaPeriodo,
+.BlobInputCategoriaPeriodo,
+.ReadonlyCategoriaPeriodo {
   border-bottom-color: #D3D4D3;
   border-left-color: #D3D4D3;
   border-right-color: #D3D4D3;
@@ -306,7 +521,11 @@
   border-width: 0;
 }
 
-.Link,.BlobContentLink,.ReadonlyBlobContentLink,.BlobInputLink,.ReadonlyLink {
+.Link,
+.BlobContentLink,
+.ReadonlyBlobContentLink,
+.BlobInputLink,
+.ReadonlyLink {
   border-bottom-color: #D3D4D3;
   border-left-color: #D3D4D3;
   border-right-color: #D3D4D3;
@@ -324,7 +543,26 @@
   border-width: 0;
 }
 
-.A,.BlobContentA,.ReadonlyBlobContentA,.BlobInputA,.ReadonlyA,.A.Link,.BlobContentA.Link,.ReadonlyBlobContentA.Link,.BlobInputA.Link,.ReadonlyA.Link,.A.Visited,.BlobContentA.Visited,.ReadonlyBlobContentA.Visited,.BlobInputA.Visited,.ReadonlyA.Visited,.A.Hover,.BlobContentA.Hover,.ReadonlyBlobContentA.Hover,.BlobInputA.Hover,.ReadonlyA.Hover {
+.A,
+.BlobContentA,
+.ReadonlyBlobContentA,
+.BlobInputA,
+.ReadonlyA,
+.A.Link,
+.BlobContentA.Link,
+.ReadonlyBlobContentA.Link,
+.BlobInputA.Link,
+.ReadonlyA.Link,
+.A.Visited,
+.BlobContentA.Visited,
+.ReadonlyBlobContentA.Visited,
+.BlobInputA.Visited,
+.ReadonlyA.Visited,
+.A.Hover,
+.BlobContentA.Hover,
+.ReadonlyBlobContentA.Hover,
+.BlobInputA.Hover,
+.ReadonlyA.Hover {
   border-bottom-color: #D3D4D3;
   border-left-color: #D3D4D3;
   border-right-color: #D3D4D3;
@@ -356,7 +594,11 @@
   border-width: 0;
 }
 
-.A.Hover,.BlobContentA.Hover,.ReadonlyBlobContentA.Hover,.BlobInputA.Hover,.ReadonlyA.Hover {
+.A.Hover,
+.BlobContentA.Hover,
+.ReadonlyBlobContentA.Hover,
+.BlobInputA.Hover,
+.ReadonlyA.Hover {
   color: #333;
 }
 
@@ -368,7 +610,11 @@
   border-width: 0;
 }
 
-.Attribute_Small,.BlobContentAttribute_Small,.ReadonlyBlobContentAttribute_Small,.BlobInputAttribute_Small,.ReadonlyAttribute_Small {
+.Attribute_Small,
+.BlobContentAttribute_Small,
+.ReadonlyBlobContentAttribute_Small,
+.BlobInputAttribute_Small,
+.ReadonlyAttribute_Small {
   border-bottom-color: #D3D4D3;
   border-left-color: #D3D4D3;
   border-right-color: #D3D4D3;
@@ -384,7 +630,11 @@
   border-width: 0;
 }
 
-.NoBorder,.BlobContentNoBorder,.ReadonlyBlobContentNoBorder,.BlobInputNoBorder,.ReadonlyNoBorder {
+.NoBorder,
+.BlobContentNoBorder,
+.ReadonlyBlobContentNoBorder,
+.BlobInputNoBorder,
+.ReadonlyNoBorder {
   border-bottom-color: #D3D4D3;
   border-left-color: #D3D4D3;
   border-right-color: #D3D4D3;
@@ -393,7 +643,11 @@
   border-width: 0;
 }
 
-.CatalogoAtributo,.BlobContentCatalogoAtributo,.ReadonlyBlobContentCatalogoAtributo,.BlobInputCatalogoAtributo,.ReadonlyCatalogoAtributo {
+.CatalogoAtributo,
+.BlobContentCatalogoAtributo,
+.ReadonlyBlobContentCatalogoAtributo,
+.BlobInputCatalogoAtributo,
+.ReadonlyCatalogoAtributo {
   border-bottom-color: #D3D4D3;
   border-left-color: #D3D4D3;
   border-right-color: #D3D4D3;
@@ -410,7 +664,11 @@
   border-width: 0;
 }
 
-.Noticia_CanalTitulo,.BlobContentNoticia_CanalTitulo,.ReadonlyBlobContentNoticia_CanalTitulo,.BlobInputNoticia_CanalTitulo,.ReadonlyNoticia_CanalTitulo {
+.Noticia_CanalTitulo,
+.BlobContentNoticia_CanalTitulo,
+.ReadonlyBlobContentNoticia_CanalTitulo,
+.BlobInputNoticia_CanalTitulo,
+.ReadonlyNoticia_CanalTitulo {
   border-bottom-color: #D3D4D3;
   border-left-color: #D3D4D3;
   border-right-color: #D3D4D3;
@@ -429,7 +687,11 @@
   border-width: 0;
 }
 
-.ComponenteSelecionado,.BlobContentComponenteSelecionado,.ReadonlyBlobContentComponenteSelecionado,.BlobInputComponenteSelecionado,.ReadonlyComponenteSelecionado {
+.ComponenteSelecionado,
+.BlobContentComponenteSelecionado,
+.ReadonlyBlobContentComponenteSelecionado,
+.BlobInputComponenteSelecionado,
+.ReadonlyComponenteSelecionado {
   padding-left: 5px;
   background-color: White;
   border-bottom-color: #D3D4D3;
@@ -447,7 +709,11 @@
   border-width: 0;
 }
 
-.ComponenteAtributoGrid,.BlobContentComponenteAtributoGrid,.ReadonlyBlobContentComponenteAtributoGrid,.BlobInputComponenteAtributoGrid,.ReadonlyComponenteAtributoGrid {
+.ComponenteAtributoGrid,
+.BlobContentComponenteAtributoGrid,
+.ReadonlyBlobContentComponenteAtributoGrid,
+.BlobInputComponenteAtributoGrid,
+.ReadonlyComponenteAtributoGrid {
   padding-left: 5px;
   background-color: White;
   border-bottom-color: #404040;
@@ -469,13 +735,17 @@
   border-width: 0;
 }
 
-.checkbox,.BlobContentcheckbox,.ReadonlyBlobContentcheckbox,.BlobInputcheckbox,.Readonlycheckbox {
+.checkbox,
+.BlobContentcheckbox,
+.ReadonlyBlobContentcheckbox,
+.BlobInputcheckbox,
+.Readonlycheckbox {
   border-bottom-color: #D3D4D3;
   border-left-color: #D3D4D3;
   border-right-color: #D3D4D3;
   border-top-color: #D3D4D3;
   border-style: none;
-  font-size: 18px!important;
+  font-size: 18px !important;
 }
 
 .ReadonlyBlobContentcheckbox {
@@ -486,12 +756,16 @@
   border-width: 0;
 }
 
-.TitleSub,.BlobContentTitleSub,.ReadonlyBlobContentTitleSub,.BlobInputTitleSub,.ReadonlyTitleSub {
+.TitleSub,
+.BlobContentTitleSub,
+.ReadonlyBlobContentTitleSub,
+.BlobInputTitleSub,
+.ReadonlyTitleSub {
   border-bottom-color: #D3D4D3;
   border-left-color: #D3D4D3;
   border-right-color: #D3D4D3;
   border-top-color: #D3D4D3;
-  font-size: 18px!important;
+  font-size: 18px !important;
 }
 
 .ReadonlyBlobContentTitleSub {
@@ -502,7 +776,11 @@
   border-width: 0;
 }
 
-.TitleSubRed,.BlobContentTitleSubRed,.ReadonlyBlobContentTitleSubRed,.BlobInputTitleSubRed,.ReadonlyTitleSubRed {
+.TitleSubRed,
+.BlobContentTitleSubRed,
+.ReadonlyBlobContentTitleSubRed,
+.BlobInputTitleSubRed,
+.ReadonlyTitleSubRed {
   border-bottom-color: #D3D4D3;
   border-left-color: #D3D4D3;
   border-right-color: #D3D4D3;
@@ -519,7 +797,11 @@
   border-width: 0;
 }
 
-.AttributeSmall,.BlobContentAttributeSmall,.ReadonlyBlobContentAttributeSmall,.BlobInputAttributeSmall,.ReadonlyAttributeSmall {
+.AttributeSmall,
+.BlobContentAttributeSmall,
+.ReadonlyBlobContentAttributeSmall,
+.BlobInputAttributeSmall,
+.ReadonlyAttributeSmall {
   border-bottom-color: #D3D4D3;
   border-left-color: #D3D4D3;
   border-right-color: #D3D4D3;
@@ -535,7 +817,11 @@
   border-width: 0;
 }
 
-.AttributeSmallest,.BlobContentAttributeSmallest,.ReadonlyBlobContentAttributeSmallest,.BlobInputAttributeSmallest,.ReadonlyAttributeSmallest {
+.AttributeSmallest,
+.BlobContentAttributeSmallest,
+.ReadonlyBlobContentAttributeSmallest,
+.BlobInputAttributeSmallest,
+.ReadonlyAttributeSmallest {
   border-bottom-color: #D3D4D3;
   border-left-color: #D3D4D3;
   border-right-color: #D3D4D3;
@@ -551,7 +837,11 @@
   border-width: 0;
 }
 
-.AttributeNormal,.BlobContentAttributeNormal,.ReadonlyBlobContentAttributeNormal,.BlobInputAttributeNormal,.ReadonlyAttributeNormal {
+.AttributeNormal,
+.BlobContentAttributeNormal,
+.ReadonlyBlobContentAttributeNormal,
+.BlobInputAttributeNormal,
+.ReadonlyAttributeNormal {
   border-bottom-color: #D3D4D3;
   border-left-color: #D3D4D3;
   border-right-color: #D3D4D3;
@@ -566,10 +856,14 @@
   border-width: 0;
 }
 
-.AttributeSemLink,.BlobContentAttributeSemLink,.ReadonlyBlobContentAttributeSemLink,.BlobInputAttributeSemLink,.ReadonlyAttributeSemLink {
+.AttributeSemLink,
+.BlobContentAttributeSemLink,
+.ReadonlyBlobContentAttributeSemLink,
+.BlobInputAttributeSemLink,
+.ReadonlyAttributeSemLink {
   text-transform: none;
   border-radius: 3px;
-  pointer-events: none!important;
+  pointer-events: none !important;
   cursor: default;
 }
 
@@ -581,7 +875,35 @@
   border-width: 0;
 }
 
-.Button,.SpecialButtons,.BtnCancel,.BtnCancel:Active,.BtnCancel:Hover,.BtnCheck,.BtnDelete,.BtnDelete:Active,.BtnDelete:Hover,.BtnEnter,.BtnFirst,.BtnGet,.BtnHelp,.BtnLast,.BtnNext,.BtnPrevious,.BtnRefresh,.BtnSelect,.btnEnter:Hover,.btnEnter:Active,.ButtonDragging,.ButtonAcceptDrag,.ButtonNoAcceptDrag,.ActionButtons,.Button:Active,.Button:Hover,.ButtonGrande,.ButtonGrandeFino,.ButtonPequeno {
+.Button,
+.SpecialButtons,
+.BtnCancel,
+.BtnCancel:Active,
+.BtnCancel:Hover,
+.BtnCheck,
+.BtnDelete,
+.BtnDelete:Active,
+.BtnDelete:Hover,
+.BtnEnter,
+.BtnFirst,
+.BtnGet,
+.BtnHelp,
+.BtnLast,
+.BtnNext,
+.BtnPrevious,
+.BtnRefresh,
+.BtnSelect,
+.btnEnter:Hover,
+.btnEnter:Active,
+.ButtonDragging,
+.ButtonAcceptDrag,
+.ButtonNoAcceptDrag,
+.ActionButtons,
+.Button:Active,
+.Button:Hover,
+.ButtonGrande,
+.ButtonGrandeFino,
+.ButtonPequeno {
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
@@ -770,7 +1092,9 @@
   vertical-align: middle;
 }
 
-.BtnDelete,.BtnDelete:Active,.BtnDelete:Hover {
+.BtnDelete,
+.BtnDelete:Active,
+.BtnDelete:Hover {
   border-bottom-color: #797979;
   border-left-color: #797979;
   border-right-color: #797979;
@@ -1450,7 +1774,10 @@
   color: #f00;
 }
 
-.Form,.FormBody,.ComponenteForm,.FormGestao {
+.Form,
+.FormBody,
+.ComponenteForm,
+.FormGestao {
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
@@ -1464,7 +1791,7 @@
   background-image: none;
   border-style: none;
   border-width: 0;
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1484,10 +1811,19 @@
 
 .FormGestao {
   background-color: #EEE;
-  background-color: #EEE!important;
+  background-color: #EEE !important;
 }
 
-.FreeStyleGrid,.VerticalTabGrid,.FreeStyleGridBottom,.FreeStyleGridRecent,.FreeStyleGridDragging,.FreeStyleGridAcceptDrag,.FreeStyleGridNoAcceptDrag,.FreeStyleGridClear,.Noticia_FreeStyleGrid,.FreeStyleSimples {
+.FreeStyleGrid,
+.VerticalTabGrid,
+.FreeStyleGridBottom,
+.FreeStyleGridRecent,
+.FreeStyleGridDragging,
+.FreeStyleGridAcceptDrag,
+.FreeStyleGridNoAcceptDrag,
+.FreeStyleGridClear,
+.Noticia_FreeStyleGrid,
+.FreeStyleSimples {
   background-color: #FFF;
   margin-bottom: 0;
   margin-left: 0;
@@ -1503,7 +1839,7 @@
 
 .FreeStyleGridUniform {
   background-color: #D3D4D3;
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1511,7 +1847,7 @@
 }
 
 .FreeStyleGridOdd {
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1520,7 +1856,7 @@
 }
 
 .FreeStyleGridEven {
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1534,7 +1870,7 @@
 
 .VerticalTabGridUniform {
   background-color: #FFF;
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1543,7 +1879,7 @@
 }
 
 .VerticalTabGridOdd {
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1553,7 +1889,7 @@
 }
 
 .VerticalTabGridEven {
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1578,7 +1914,7 @@
 
 .FreeStyleGridBottomUniform {
   background-color: #D3D4D3;
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1587,7 +1923,7 @@
 }
 
 .FreeStyleGridBottomOdd {
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1597,7 +1933,7 @@
 }
 
 .FreeStyleGridBottomEven {
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1620,7 +1956,7 @@
 .FreeStyleGridRecentUniform {
   background-repeat: repeat-x;
   background-color: #D3D4D3;
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1629,7 +1965,7 @@
 
 .FreeStyleGridRecentOdd {
   background-repeat: repeat-x;
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1639,7 +1975,7 @@
 
 .FreeStyleGridRecentEven {
   background-repeat: repeat-x;
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1658,7 +1994,7 @@
 
 .FreeStyleGridDraggingUniform {
   background-color: #D3D4D3;
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1666,7 +2002,7 @@
 }
 
 .FreeStyleGridDraggingOdd {
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1675,7 +2011,7 @@
 }
 
 .FreeStyleGridDraggingEven {
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1689,7 +2025,7 @@
 
 .FreeStyleGridAcceptDragUniform {
   background-color: #D3D4D3;
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1697,7 +2033,7 @@
 }
 
 .FreeStyleGridAcceptDragOdd {
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1706,7 +2042,7 @@
 }
 
 .FreeStyleGridAcceptDragEven {
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1720,7 +2056,7 @@
 
 .FreeStyleGridNoAcceptDragUniform {
   background-color: #D3D4D3;
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1728,7 +2064,7 @@
 }
 
 .FreeStyleGridNoAcceptDragOdd {
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1737,7 +2073,7 @@
 }
 
 .FreeStyleGridNoAcceptDragEven {
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1791,7 +2127,7 @@
 
 .Noticia_FreeStyleGridUniform {
   background-color: #D3D4D3;
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1799,7 +2135,7 @@
 }
 
 .Noticia_FreeStyleGridOdd {
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1808,7 +2144,7 @@
 }
 
 .Noticia_FreeStyleGridEven {
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1831,7 +2167,7 @@
 
 .FreeStyleSimplesUniform {
   background-color: White;
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1839,7 +2175,7 @@
 }
 
 .FreeStyleSimplesOdd {
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1848,7 +2184,7 @@
 }
 
 .FreeStyleSimplesEven {
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-style: normal;
   font-variant: normal;
@@ -1860,7 +2196,21 @@
   background-color: White;
 }
 
-.Grid,.GridDragging,.GridAcceptDrag,.GridNoAcceptDrag,.WorkWith,.GridClear,.GridClearNoTitle,.GridClearNoTitle1,.GridGray,.NoTitle,.GridClearTransparent,.ComponenteGridNoTitle,.GridClearNoWrap,.GridClearNoTitle,.GridClearNoTitle1 {
+.Grid,
+.GridDragging,
+.GridAcceptDrag,
+.GridNoAcceptDrag,
+.WorkWith,
+.GridClear,
+.GridClearNoTitle,
+.GridClearNoTitle1,
+.GridGray,
+.NoTitle,
+.GridClearTransparent,
+.ComponenteGridNoTitle,
+.GridClearNoWrap,
+.GridClearNoTitle,
+.GridClearNoTitle1 {
   border-style: none;
   border-width: 0;
 }
@@ -2143,7 +2493,9 @@
   color: #FFF;
 }
 
-.GridClear,.GridClearNoTitle,.GridClearNoTitle1 {
+.GridClear,
+.GridClearNoTitle,
+.GridClearNoTitle1 {
   background-color: White;
   border-bottom-color: #dbecfc;
   border-left-color: #dbecfc;
@@ -2513,7 +2865,9 @@
   color: #FFF;
 }
 
-.GridClearNoWrap,.GridClearNoTitle,.GridClearNoTitle1 {
+.GridClearNoWrap,
+.GridClearNoTitle,
+.GridClearNoTitle1 {
   background-color: White;
   border-bottom-color: #dbecfc;
   border-left-color: #dbecfc;
@@ -2686,13 +3040,34 @@
   text-decoration: none;
 }
 
-.Image,.ImageDragging,.ImageAcceptDrag,.ImageNoAcceptDrag,.PagingButtons,.PagingButtonsFirst,.PagingButtonsPrevious,.PagingButtonsNext,.PagingButtonsLast,.ImageTop,.ImageInButton,.ImageTopHeader,.ImageHandCenter,.ImageHandCenter:hover,.ImageBotao,.MyButton,.MyButton:Active,.MyButton:Hover {
+.Image,
+.ImageDragging,
+.ImageAcceptDrag,
+.ImageNoAcceptDrag,
+.PagingButtons,
+.PagingButtonsFirst,
+.PagingButtonsPrevious,
+.PagingButtonsNext,
+.PagingButtonsLast,
+.ImageTop,
+.ImageInButton,
+.ImageTopHeader,
+.ImageHandCenter,
+.ImageHandCenter:hover,
+.ImageBotao,
+.MyButton,
+.MyButton:Active,
+.MyButton:Hover {
   list-style-image: none;
   border-style: none;
   border-width: 0;
 }
 
-.PagingButtons,.PagingButtonsFirst,.PagingButtonsPrevious,.PagingButtonsNext,.PagingButtonsLast {
+.PagingButtons,
+.PagingButtonsFirst,
+.PagingButtonsPrevious,
+.PagingButtonsNext,
+.PagingButtonsLast {
   cursor: pointer;
 }
 
@@ -2709,7 +3084,8 @@
   vertical-align: top;
 }
 
-.ImageHandCenter,.ImageHandCenter:hover {
+.ImageHandCenter,
+.ImageHandCenter:hover {
   margin-left: 3px;
   margin-top: 3px;
   cursor: pointer;
@@ -2729,16 +3105,18 @@
 }
 
 .MyButton:Active {
-  background-position: 0,0;
+  background-position: 0, 0;
   background-position: 0 0;
 }
 
 .MyButton:Hover {
-  background-position: 0,0;
+  background-position: 0, 0;
   background-position: 0 0;
 }
 
-.Messages,.ErrorMessages,.WarningMessages {
+.Messages,
+.ErrorMessages,
+.WarningMessages {
   background-color: #F6E2C6;
   border-bottom-color: #716F64;
   border-left-color: #716F64;
@@ -2750,7 +3128,7 @@
   padding-left: 4px;
   padding-right: 4px;
   padding-top: 4px;
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 8pt;
   font-style: normal;
   font-variant: normal;
@@ -2777,7 +3155,52 @@
   color: #FFF;
 }
 
-.Table,.TableDragging,.TableAcceptDrag,.TableNoAcceptDrag,.TableGrid,.TableTop,.TableContent,.Table100x100,.ToolbarMain,.TableLeftMenu,.ViewTable,.HorizontalLine,.HorizontalSpace,.TableBottom,.Table95,.RecentLinksTable,.TableMargin2,.TableBorderExterna,.TableMargin,.TableTopBlue,.TableTopMenu,.TableFilter,.TableBorder100x100,.TableBorder100x100x500,.TableTopo,.TableUnidade,.BotaoEdit,.BotaoEdit.Hover,.CssTableDotted,.TablePontilhadoUnidade,.Noticia_TableCanalTitulo,.Noticia_TableComunidade,.ComponenteTableBorder,.ComponenteTable,.Border,.BorderBottom,.BorderBottomRight,.BorderGray,.BorderGrayClear,.TableFooter,.TableMat,.TableInvisivel,.TableBorder,.Selecionado,.TableFilter2,.TableMenu {
+.Table,
+.TableDragging,
+.TableAcceptDrag,
+.TableNoAcceptDrag,
+.TableGrid,
+.TableTop,
+.TableContent,
+.Table100x100,
+.ToolbarMain,
+.TableLeftMenu,
+.ViewTable,
+.HorizontalLine,
+.HorizontalSpace,
+.TableBottom,
+.Table95,
+.RecentLinksTable,
+.TableMargin2,
+.TableBorderExterna,
+.TableMargin,
+.TableTopBlue,
+.TableTopMenu,
+.TableFilter,
+.TableBorder100x100,
+.TableBorder100x100x500,
+.TableTopo,
+.TableUnidade,
+.BotaoEdit,
+.BotaoEdit.Hover,
+.CssTableDotted,
+.TablePontilhadoUnidade,
+.Noticia_TableCanalTitulo,
+.Noticia_TableComunidade,
+.ComponenteTableBorder,
+.ComponenteTable,
+.Border,
+.BorderBottom,
+.BorderBottomRight,
+.BorderGray,
+.BorderGrayClear,
+.TableFooter,
+.TableMat,
+.TableInvisivel,
+.TableBorder,
+.Selecionado,
+.TableFilter2,
+.TableMenu {
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
@@ -2816,7 +3239,8 @@
   vertical-align: top;
 }
 
-.Table100x100,.ToolbarMain {
+.Table100x100,
+.ToolbarMain {
   vertical-align: top;
 }
 
@@ -3098,9 +3522,9 @@
 }
 
 .Selecionado {
-  -webkit-box-shadow: 0 5px 40px -10px rgba(0,0,0,0.57);
-  -moz-box-shadow: 0 5px 40px -10px rgba(0,0,0,0.57);
-  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  -webkit-box-shadow: 0 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
   transition: all .4s ease 0s;
 }
 
@@ -3117,7 +3541,7 @@
   border-top-color: Silver;
   border-style: solid;
   border-width: 1px;
-  font-size: 18px!important;
+  font-size: 18px !important;
 }
 
 .TableMenu {
@@ -3129,7 +3553,73 @@
   border-bottom: 1px solid gray;
 }
 
-.TextBlock,.TextBlockDragging,.TextBlockAcceptDrag,.TextBlockNoAcceptDrag,.bullet,.subBullet,.TextTable,.TBTopMenu,.TBLeftMenu,.Title,.SubTitle,.Title:Link,.Label,.LabelDragging,.LabelAcceptDrag,.LabelNoAcceptDrag,.Separator,.SmallText,.SelectedTab,.RecentLink,.TextBlockHeader,.Titulo,.TituloComponente,.DisciplinaTitulo,.DisciplinaTextoComum,.DisciplinaTituloCapitulos,.DisciplinaResumoTitulo,.LinkTitle,.LinkTitle1,.LinkText,.wizard_titulo,.AssistenteTitulo,.AssistenteSubTitulo,.wizard_sub,.LinkTexto,.Menu,.A,.A.Link,.A.Hover,.A.Visited,.Psc_Titulo,.Border,.paneltitle,.TituloUnidade,.Titulo_1,.CatalogoSubTitulo,.CatalogoSubSubTitulo,.ComponenteTitulo,.ComponenteSubTitulo,.TituloPainel,.TituloBotao,.BoxButton,.BoxButton.A:link,.TextoPequeno,.TextBlock1,.TextBlock2,.TextBlock3,.TextBlock_NoLink,.TextBlock_NoLink:link,.TextBlock_NoLink:visited,.TextBlock_NoLink:hover,.TextBlockSmall,.botao,.GestaoTitulo,.GestaoSubTitulo,.GestaoTexto,.GestaoTituloFiltro {
+.TextBlock,
+.TextBlockDragging,
+.TextBlockAcceptDrag,
+.TextBlockNoAcceptDrag,
+.bullet,
+.subBullet,
+.TextTable,
+.TBTopMenu,
+.TBLeftMenu,
+.Title,
+.SubTitle,
+.Title:Link,
+.Label,
+.LabelDragging,
+.LabelAcceptDrag,
+.LabelNoAcceptDrag,
+.Separator,
+.SmallText,
+.SelectedTab,
+.RecentLink,
+.TextBlockHeader,
+.Titulo,
+.TituloComponente,
+.DisciplinaTitulo,
+.DisciplinaTextoComum,
+.DisciplinaTituloCapitulos,
+.DisciplinaResumoTitulo,
+.LinkTitle,
+.LinkTitle1,
+.LinkText,
+.wizard_titulo,
+.AssistenteTitulo,
+.AssistenteSubTitulo,
+.wizard_sub,
+.LinkTexto,
+.Menu,
+.A,
+.A.Link,
+.A.Hover,
+.A.Visited,
+.Psc_Titulo,
+.Border,
+.paneltitle,
+.TituloUnidade,
+.Titulo_1,
+.CatalogoSubTitulo,
+.CatalogoSubSubTitulo,
+.ComponenteTitulo,
+.ComponenteSubTitulo,
+.TituloPainel,
+.TituloBotao,
+.BoxButton,
+.BoxButton.A:link,
+.TextoPequeno,
+.TextBlock1,
+.TextBlock2,
+.TextBlock3,
+.TextBlock_NoLink,
+.TextBlock_NoLink:link,
+.TextBlock_NoLink:visited,
+.TextBlock_NoLink:hover,
+.TextBlockSmall,
+.botao,
+.GestaoTitulo,
+.GestaoSubTitulo,
+.GestaoTexto,
+.GestaoTituloFiltro {
   margin-bottom: 1px;
   padding-right: 3pt;
   white-space: nowrap;
@@ -3156,7 +3646,8 @@
   color: Black;
 }
 
-.bullet,.subBullet {
+.bullet,
+.subBullet {
   color: #747474;
   text-indent: 5pt;
 }
@@ -3188,7 +3679,9 @@
   color: #000;
 }
 
-.Title,.SubTitle,.Title:Link {
+.Title,
+.SubTitle,
+.Title:Link {
   font-variant: normal;
   font-weight: bold;
   color: #333;
@@ -3201,7 +3694,10 @@
   color: #6AACC2;
 }
 
-.Label,.LabelDragging,.LabelAcceptDrag,.LabelNoAcceptDrag {
+.Label,
+.LabelDragging,
+.LabelAcceptDrag,
+.LabelNoAcceptDrag {
   font-size: 9pt;
   font-variant: normal;
   font-weight: bold;
@@ -3283,7 +3779,8 @@
   color: White;
 }
 
-.LinkTitle,.LinkTitle1 {
+.LinkTitle,
+.LinkTitle1 {
   font-size: 11px;
   font-variant: normal;
   font-weight: bold;
@@ -3339,13 +3836,16 @@
 }
 
 .Menu {
-  font-family: "Segoe UI",Arial;
+  font-family: "Segoe UI", Arial;
   font-size: 13px;
   font-variant: normal;
   color: Navy;
 }
 
-.A,.A.Link,.A.Hover,.A.Visited {
+.A,
+.A.Link,
+.A.Hover,
+.A.Visited {
   font-size: 13px;
   color: Navy;
 }
@@ -3448,7 +3948,8 @@
   vertical-align: middle;
 }
 
-.BoxButton,.BoxButton.A:link {
+.BoxButton,
+.BoxButton.A:link {
   padding-bottom: 2px;
   padding-top: 2px;
   display: block;
@@ -3535,12 +4036,15 @@
   color: CornflowerBlue;
 }
 
-.Section,.Section1 {
+.Section,
+.Section1 {
   border-style: none;
   border-width: 0;
 }
 
-.Group,.CatalogoGrupo,.GroupBox {
+.Group,
+.CatalogoGrupo,
+.GroupBox {
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
@@ -3619,7 +4123,7 @@
   position: relative;
   display: none;
   cursor: default;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: #7D7D7D;
 }
@@ -3636,7 +4140,7 @@
   padding-left: 1px;
   padding-right: 1px;
   padding-top: 1px;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: #333;
   text-align: center;
@@ -3651,7 +4155,7 @@
   border-style: solid;
   border-width: 1px;
   cursor: default;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: #333;
   text-align: center;
@@ -3668,7 +4172,7 @@
   padding-left: 2px;
   padding-right: 3px;
   padding-top: 2px;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: ButtonText;
 }
@@ -3681,7 +4185,7 @@
   border-top-color: #fff;
   border-style: solid;
   border-width: 1px;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: WindowText;
 }
@@ -3697,7 +4201,7 @@
   position: relative;
   display: none;
   cursor: default;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: WindowText;
 }
@@ -3713,7 +4217,7 @@
   position: relative;
   display: none;
   cursor: default;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: WindowText;
 }
@@ -3734,7 +4238,7 @@
   position: relative;
   display: none;
   cursor: default;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: ButtonText;
   text-align: center;
@@ -3751,7 +4255,7 @@
   position: relative;
   display: none;
   cursor: default;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: #f00;
 }
@@ -3771,7 +4275,7 @@
   position: relative;
   display: none;
   cursor: default;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: WindowText;
 }
@@ -3791,7 +4295,7 @@
   position: relative;
   display: none;
   cursor: default;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: WindowText;
 }
@@ -3811,7 +4315,7 @@
   position: relative;
   display: none;
   cursor: default;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   font-weight: bold;
   color: CaptionText;
@@ -3819,7 +4323,7 @@
 }
 
 .Calendar TBODY {
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
 }
 
@@ -3829,7 +4333,7 @@
   padding-right: 4px;
   padding-top: 2px;
   width: 2em;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: #333;
   text-align: center;
@@ -3837,35 +4341,35 @@
 
 .Calendar TBODY.rowhilite {
   background-color: Window;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: WindowText;
 }
 
 .Calendar TBODY.rowhilite TD {
   background-color: #E4E5E6;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: #333;
 }
 
 .Calendar TBODY.emptyrow {
   background-color: Window;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: WindowText;
 }
 
 .Calendar TBODY.emptycell {
   visibility: hidden;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: #333;
 }
 
 .Calendar TBODY TD {
   background-color: Window;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: WindowText;
 }
@@ -3882,7 +4386,7 @@
   padding-left: 1px;
   padding-right: 3px;
   padding-top: 1px;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: WindowText;
 }
@@ -3899,7 +4403,7 @@
   padding-left: 2px;
   padding-right: 2px;
   padding-top: 2px;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: WindowText;
 }
@@ -3916,7 +4420,7 @@
   padding-left: 2px;
   padding-right: 2px;
   padding-top: 2px;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   font-weight: bold;
   color: ButtonText;
@@ -3924,14 +4428,14 @@
 
 .Calendar TBODY TD.weekend {
   background-color: Window;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: #f00;
 }
 
 .Calendar TBODY TD.today {
   background-color: Window;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   font-weight: bold;
   color: #00f;
@@ -3945,7 +4449,7 @@
   border-top-color: #fff;
   border-style: solid;
   border-width: 1px;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: GrayText;
 }
@@ -3963,7 +4467,7 @@
   padding-left: 0;
   padding-right: 0;
   padding-top: 1px;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: WindowText;
   text-align: center;
@@ -3982,7 +4486,7 @@
   padding-left: 3px;
   padding-right: 3px;
   padding-top: 0;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   font-weight: bold;
   color: WindowText;
@@ -4002,7 +4506,7 @@
   padding-left: 3px;
   padding-right: 3px;
   padding-top: 0;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   font-weight: bold;
   color: WindowText;
@@ -4022,7 +4526,7 @@
   padding-left: 3px;
   padding-right: 3px;
   padding-top: 0;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   font-weight: bold;
   color: WindowText;
@@ -4042,7 +4546,7 @@
   padding-left: 3px;
   padding-right: 2px;
   padding-top: 0;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   font-weight: bold;
   color: WindowText;
@@ -4062,7 +4566,7 @@
   padding-left: 0;
   padding-right: 0;
   padding-top: 1px;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: WindowText;
   text-align: center;
@@ -4081,7 +4585,7 @@
   padding-left: 0;
   padding-right: 0;
   padding-top: 1px;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: HighlightText;
   text-align: center;
@@ -4100,7 +4604,7 @@
   padding-left: 0;
   padding-right: 0;
   padding-top: 1px;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: #0f0;
   text-align: center;
@@ -4114,7 +4618,7 @@
   border-top-color: #fff;
   border-style: solid;
   border-width: 1px;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: WindowText;
 }
@@ -4130,7 +4634,7 @@
   position: relative;
   display: none;
   cursor: default;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: WindowText;
 }
@@ -4150,7 +4654,7 @@
   position: relative;
   display: none;
   cursor: default;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: ButtonText;
   text-align: center;
@@ -4171,7 +4675,7 @@
   position: relative;
   display: none;
   cursor: default;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: WindowText;
 }
@@ -4191,7 +4695,7 @@
   position: relative;
   display: none;
   cursor: default;
-  font-family: tahoma,verdana,sans-serif;
+  font-family: tahoma, verdana, sans-serif;
   font-size: 11px;
   color: WindowText;
 }
@@ -4324,7 +4828,7 @@ DIV.suggestions {
   position: absolute;
   -moz-box-sizing: border-box;
   font-family: Calibri;
-  font-size: 18px!important;
+  font-size: 18px !important;
 }
 
 DIV.suggestions DIV {
@@ -4334,13 +4838,13 @@ DIV.suggestions DIV {
   padding-top: 0;
   cursor: default;
   font-family: Calibri;
-  font-size: 18px!important;
+  font-size: 18px !important;
 }
 
 DIV.suggestions DIV.current {
   background-color: #b0c4de;
   font-family: Calibri;
-  font-size: 18px!important;
+  font-size: 18px !important;
   color: White;
 }
 
@@ -4379,7 +4883,7 @@ DIV.suggestions DIV.current {
   z-index: 999;
   width: 100%;
   display: block;
-  font-family: Verdana,Arial,Helvetica,sans-serif;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: 1.3em;
   font-weight: bold;
   text-align: center;
@@ -4391,15 +4895,15 @@ DIV.suggestions DIV.current {
   height: 16px;
   width: 100%;
   cursor: move;
-  font-family: Verdana,Arial;
+  font-family: Verdana, Arial;
   font-size: 9pt;
   font-weight: bold;
   color: White;
   text-indent: 3px;
   vertical-align: bottom;
-  width: 100%!important;
-  top: 0!important;
-  left: 0!important;
+  width: 100% !important;
+  top: 0 !important;
+  left: 0 !important;
 }
 
 
@@ -4414,16 +4918,16 @@ DIV.suggestions DIV.current {
 
 .FieldSet {
   width: 95%;
-  font-family: Verdana,Arial;
-  font-size: 18px!important;
+  font-family: Verdana, Arial;
+  font-size: 18px !important;
   font-style: italic;
   font-weight: bold;
   color: #6AACC2;
 }
 
 .FormHeader {
-  font-family: Verdana,"Arial Black";
-  font-size: 18px!important;
+  font-family: Verdana, "Arial Black";
+  font-size: 18px !important;
   font-weight: bold;
   color: #6AACC2;
 }
@@ -4434,8 +4938,8 @@ DIV.suggestions DIV.current {
 }
 
 .FieldSetTitle {
-  font-family: Verdana,Arial;
-  font-size: 18px!important;
+  font-family: Verdana, Arial;
+  font-size: 18px !important;
   font-style: italic;
   font-weight: bold;
   color: #6AACC2;
@@ -4575,10 +5079,10 @@ DIV.suggestions DIV.current {
 }
 
 .Attribute:Focus {
-  box-shadow: 0 0 5px rgba(81,203,238,1);
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
   padding: 3px 0 3px 3px;
   margin: 5px 1px 3px 0;
-  border: 1px solid rgba(81,203,238,1);
+  border: 1px solid rgba(81, 203, 238, 1);
 }
 
 BODY {
@@ -4589,9 +5093,15 @@ BODY {
 BODY IFRAME {
   overflow: auto;
   overflow: -moz-scrollbars-vertical;
-  scrollbar-base-color:#f00;scrollbar-arrow-color:#727272;scrollbar-3dlight-color: #c0c0c0;
+  scrollbar-base-color: #f00;
+  scrollbar-arrow-color: #727272;
+  scrollbar-3dlight-color: #c0c0c0;
   scrollbar-darkshadow-color: #c0c0c0;
-  scrollbar-face-color:#c0c0c0;scrollbar-highlight-color:#c0c0c0;scrollbar-shadow-color:#c0c0c0;scrollbar-track-color:#727272;}
+  scrollbar-face-color: #c0c0c0;
+  scrollbar-highlight-color: #c0c0c0;
+  scrollbar-shadow-color: #c0c0c0;
+  scrollbar-track-color: #727272;
+}
 
 DIV.suggestions {
   background-color: #FFF;
@@ -4605,7 +5115,7 @@ DIV.suggestions {
   position: absolute;
   -moz-box-sizing: border-box;
   font-family: Calibri;
-  font-size: 18px!important;
+  font-size: 18px !important;
   font-style: normal;
   font-variant: normal;
 }
@@ -4616,8 +5126,8 @@ DIV.suggestions DIV {
   padding-right: 2px;
   padding-top: 2px;
   cursor: default;
-  font-family: Verdana,Arial;
-  font-size: 18px!important;
+  font-family: Verdana, Arial;
+  font-size: 18px !important;
   font-style: normal;
   font-variant: normal;
   color: #333;
@@ -4629,8 +5139,8 @@ DIV.suggestions DIV.current {
   margin-left: 2px;
   margin-right: 2px;
   margin-top: 2px;
-  font-family: Verdana,Arial;
-  font-size: 18px!important;
+  font-family: Verdana, Arial;
+  font-size: 18px !important;
   font-style: normal;
   font-variant: normal;
   color: #333;
@@ -4646,7 +5156,7 @@ DIV.suggestions DIV.current {
 }
 
 #btnew #btnew:hover #btnew:hover {
-  -webkit-box-shadow: 11px 17px 24px 2px rgba(7,9,13,1);
-  -moz-box-shadow: 11px 17px 24px 2px rgba(7,9,13,1);
-  box-shadow: 11px 17px 24px 2px rgba(7,9,13,1);
+  -webkit-box-shadow: 11px 17px 24px 2px rgba(7, 9, 13, 1);
+  -moz-box-shadow: 11px 17px 24px 2px rgba(7, 9, 13, 1);
+  box-shadow: 11px 17px 24px 2px rgba(7, 9, 13, 1);
 }

@@ -34,7 +34,7 @@ function App() {
                 <table id="TABLE2" className="Table" cellpadding="1" cellspacing="2">
                   <tbody>
                     <tr>
-                      <td style={{ textAlign: "-khtml-center,width:114px" }}></td>
+                      <td style={{ textAlign: "-khtml-center", width: "114px" }}></td>
                       <td style={{
                         textAlign: "-khtml-center",
                         width: "271px"
@@ -56,26 +56,26 @@ function App() {
                   <table style={{ border: "1px solid black", borderRadius: "5px", width: "800px", color: "black", height: "234px", marginLeft: "auto", marginRight: "auto" }}>
                     <tbody>
                       <tr>
-                        <td style={{ width: "136px", fontSize: "18px" }}>Documento tipo</td>
+                        <td style={{ width: "136px", fontFamily: "verdana", fontSize: "18px" }}>Documento tipo</td>
                         <td style={{ fontSize: "14px", width: "465px" }}><strong>Carteira de Estudante	</strong></td>
                       </tr>
                       <tr>
-                        <td style={{ width: "136px", fontSize: "18px" }}>Emitido em</td><td style={{ fontSize: "14px", width: "465px" }}><strong>18/11/22	</strong></td>
+                        <td style={{ width: "136px", fontFamily: "verdana", fontSize: "18px" }}>Emitido em</td><td style={{ fontSize: "14px", width: "465px" }}><strong>18/11/22	</strong></td>
                       </tr>
                       <tr>
-                        <td style={{ width: "136px", fontSize: "18px" }}>Para</td><td style={{ fontSize: "14px", width: "465px" }}><strong>{pessoa.nome}</strong></td>
+                        <td style={{ width: "136px", fontFamily: "verdana", fontSize: "18px" }}>Para</td><td style={{ fontSize: "14px", width: "465px" }}><strong>{pessoa.nome}</strong></td>
                       </tr>
                       <tr>
-                        <td style={{ width: "136px", fontSize: "18px" }}>Perfil da pessoa</td><td style={{ fontSize: "14px", width: "465px" }}><strong>ALUNO	</strong></td>
+                        <td style={{ width: "136px", fontFamily: "verdana", fontSize: "18px" }}>Perfil da pessoa</td><td style={{ fontSize: "14px", width: "465px" }}><strong>ALUNO	</strong></td>
                       </tr>
                       <tr>
-                        <td style={{ width: "136px", fontSize: "18px" }}>Faculdade</td><td style={{ fontSize: "14px", width: "465px" }}><strong>FATEC Americana</strong></td>
+                        <td style={{ width: "136px", fontFamily: "verdana", fontSize: "18px" }}>Faculdade</td><td style={{ fontSize: "14px", width: "465px" }}><strong>FATEC Americana</strong></td>
                       </tr>
                       <tr>
-                        <td style={{ width: "136px", fontSize: "18px" }}>Curso</td><td style={{ fontSize: "14px", width: "465px" }}><strong>Curso Superior de Tecnologia em Logística -  	</strong></td>
+                        <td style={{ width: "136px", fontFamily: "verdana", fontSize: "18px" }}>Curso</td><td style={{ fontSize: "14px", width: "465px" }}><strong>Curso Superior de Tecnologia em Logística -  	</strong></td>
                       </tr>
                       <tr>
-                        <td style={{ width: "136px", fontSize: "18px" }}>Turno</td><td style={{ fontSize: "14px", width: "465px" }}><strong>Noite	</strong></td>
+                        <td style={{ width: "136px", fontFamily: "verdana", fontSize: "18px" }}>Turno</td><td style={{ fontSize: "14px", width: "465px" }}><strong>Noite	</strong></td>
                       </tr>
                     </tbody>
                   </table>

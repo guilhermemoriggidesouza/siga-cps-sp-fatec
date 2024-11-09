@@ -42,7 +42,7 @@ function App() {
                         <img src="Resources/logo25.jpg" id="IMAGE3" alt="" className="Image" style={{ width: 131, height: 69 }} />
                       </td>
                       <td><img src="Resources/logo_cps_versao_cor_23.png" id="IMAGE10" alt="" className="Image" style={{ width: 122, height: 65 }} /></td>
-                      <td><img src="Resources/LOGOCEETEPS23.PNG" id="IMAGE9" alt="" className="Image" style={{ width: 196, height: 76 }} /></td>
+                      <td><img src="Resources/LOGOCEETEPS23.png" id="IMAGE9" alt="" className="Image" style={{ width: 196, height: 76 }} /></td>
                     </tr>
                   </tbody>
                 </table>
